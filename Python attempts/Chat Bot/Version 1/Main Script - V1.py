@@ -7,7 +7,7 @@ def main():
     while choice == '0':
         print("Type 1 to VIEW_FAQS ")
         print("Type 2 to ENTER_ERROR_CODE ")
-				print("Type 3 to VIEW_ERROR_CODE ")
+	print("Type 3 to VIEW_ERROR_CODE ")
         print("Type 4 to ENTER_SEARCH_QUERY ")
         print("Type 5 to CREATE_TICKET ")
         print("Type 6 to VIEW_TICKET ")
@@ -19,7 +19,7 @@ def main():
             VIEW_FAQS()
         elif choice == "2":
             ENTER_ERROR_CODE()
-				elif choice == "3":
+	elif choice == "3":
             VIEW_ERROR_CODE()
         elif choice == "4":
             ENTER_SEARCH_QUERY()
